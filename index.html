@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>ホームページ</title>
+    <link href="css/bulma.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function() {  
+            $(".navbar-burger").click(function() {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            });
+        });
+        </script>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <img src="./img/yukyu-logo.png">
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#about">
+              About
+            </a>
+      
+            <a class="navbar-item" href="#link">
+              Link
+            </a>
+          </div>
+        </div>
+    </nav>
+    <div class = "container">
+        
+        <div class="columns is-mobile is-centered is-marginless">
+            <div class="column is-three-fifths has-text-centered mt-5" >
+                <figure class="image is-128x128 is-inline-block">
+                    <img class="is-rounded" src="./img/profile.jpg">
+                </figure>
+                <p class="is-size-3 has-text-weight-bold"> yukyu(悠久)</p> 
+            </div>
+        </div>
+
+        <div class="columns is-mobile is-centered is-marginless">
+            <div class="column is-three-fifths has-text-centered mt-5">
+                <h2 id="about" class="subtitle is-size-3">About</h2>
+                <table class = "table is-inline-block is-marginless has-text-left">
+                    <tbody>
+                    <tr>
+                        <td>名前</td>
+                        <td>yukyu(悠久)</td>
+                    </tr>
+                    <tr>
+                        <td>生年月日</td>
+                        <td>19XX/9/30</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>    
+
+        <div class="columns is-mobile is-centered is-marginless">
+            <div class="column is-three-fifths has-text-centered">
+                <a class="is-inline-block" href="https://twitter.com/yukyu30" role="button">
+                    <button class="button  is-info">
+                        Twitter
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="columns is-mobile is-centered is-marginless">
+            <div class="column is-three-fifths has-text-centered">
+                <h2 id="link" class="subtitle mt-5 is-size-3">Link</h2>
+                <a href="https://blog.yu-9.work/" role="button">
+                    <button class="button is-fullwidth">
+                        ブログ
+                    </button>
+                </a>
+                <a href="https://twitter.com/yukyu30" role="button">
+                    <button class="button is-fullwidth mt-1">
+                        Twitter
+                    </button>
+                </a>
+                <a href="https://note.com/yukyu" role="button">
+                    <button class="button is-fullwidth mt-1">
+                        note
+                    </button>
+                </a>
+                <a href="https://suzuri.jp/yukyu_konpeki_dou" role="button">
+                    <button class="button is-fullwidth mt-1">
+                        SUZURI
+                    </button>
+                </a>
+                <a href="https://uq-konpeki-dou.booth.pm/" role="button">
+                    <button class="button is-fullwidth mt-1">
+                        BOOTH
+                    </button>
+                </a>
+                <a href="https://marshmallow-qa.com/yukyu30?utm_medium=url_text&utm_source=promotion" role="button">
+                    <button class="button is-fullwidth mt-1">
+                        マシュマロ
+                    </button>
+                </a>
+                <a href="https://www.youtube.com/channel/UCVjgzwl63QP7-Yy8xjbDGgQ" role="button">
+                    <button class="button is-fullwidth mt-1">
+                        YouTube
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <div class="columns is-mobile is-centered is-marginless">
+            <div class="column is-three-fifths has-text-centered">
+                <h2 class="subtitle is-size-3">制作物</h2>
+                coming soon...
+            </div>
+        </div>
+
+    </div>
+  </body>
+</html>
